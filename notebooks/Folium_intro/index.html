@@ -15,6 +15,8 @@
         <link rel="canonical" href="https://lymot.github.io/geogee/notebooks/Folium_intro/">
       
       
+        <link rel="prev" href="../ipyleaflet_intro/">
+      
       
       
         
@@ -295,18 +297,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -327,7 +331,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             
@@ -345,14 +349,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../notebook/ipyleaflet_intro.ipynb" class="md-nav__link">
+      <a href="../ipyleaflet_intro/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Ipyleaflet Intro
+    Ipyleaflet intro
   
 
     
@@ -370,17 +374,24 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../notebook/Folium_intro.ipynb" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
     
   
-    Folium Intro
+    Folium intro
   
 
     
@@ -389,6 +400,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1020,7 +1032,7 @@ m = folium.Map(location=(45.5236, -122.6750))</div>
             &lt;meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt;
             &lt;style&gt;
-                #map_405a99a974bd9e17918d9f394c910c18 {
+                #map_f3b073c4c486d190543310b532e05a53 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -1034,14 +1046,14 @@ m = folium.Map(location=(45.5236, -122.6750))</div>
 &lt;body&gt;
     
     
-            &lt;div class="folium-map" id="map_405a99a974bd9e17918d9f394c910c18" &gt;&lt;/div&gt;
+            &lt;div class="folium-map" id="map_f3b073c4c486d190543310b532e05a53" &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_405a99a974bd9e17918d9f394c910c18 = L.map(
-                "map_405a99a974bd9e17918d9f394c910c18",
+            var map_f3b073c4c486d190543310b532e05a53 = L.map(
+                "map_f3b073c4c486d190543310b532e05a53",
                 {
                     center: [45.5236, -122.675],
                     crs: L.CRS.EPSG3857,
@@ -1055,13 +1067,13 @@ m = folium.Map(location=(45.5236, -122.6750))</div>
 
         
     
-            var tile_layer_67973d462156377f366b6788f24caf47 = L.tileLayer(
+            var tile_layer_fad5ec02c5c75594e90609a43f206366 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_67973d462156377f366b6788f24caf47.addTo(map_405a99a974bd9e17918d9f394c910c18);
+            tile_layer_fad5ec02c5c75594e90609a43f206366.addTo(map_f3b073c4c486d190543310b532e05a53);
         
 &lt;/script&gt;
 &lt;/html&gt;' style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" webkitallowfullscreen=""></iframe></div></div>
@@ -1162,7 +1174,7 @@ m</div>
             &lt;meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /&gt;
             &lt;style&gt;
-                #map_3162cda7778dd42f34caef5f6b4053ab {
+                #map_d21dcae1cdfb255c056b86e95adf71da {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -1176,14 +1188,14 @@ m</div>
 &lt;body&gt;
     
     
-            &lt;div class="folium-map" id="map_3162cda7778dd42f34caef5f6b4053ab" &gt;&lt;/div&gt;
+            &lt;div class="folium-map" id="map_d21dcae1cdfb255c056b86e95adf71da" &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_3162cda7778dd42f34caef5f6b4053ab = L.map(
-                "map_3162cda7778dd42f34caef5f6b4053ab",
+            var map_d21dcae1cdfb255c056b86e95adf71da = L.map(
+                "map_d21dcae1cdfb255c056b86e95adf71da",
                 {
                     center: [45.35, -121.6972],
                     crs: L.CRS.EPSG3857,
@@ -1197,43 +1209,43 @@ m</div>
 
         
     
-            var tile_layer_4e878977a1d80be4a409e6b73c67b664 = L.tileLayer(
+            var tile_layer_c4cb138c13c8f2b1685f245f03050794 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_4e878977a1d80be4a409e6b73c67b664.addTo(map_3162cda7778dd42f34caef5f6b4053ab);
+            tile_layer_c4cb138c13c8f2b1685f245f03050794.addTo(map_d21dcae1cdfb255c056b86e95adf71da);
         
     
-            var marker_670aab3a0681053810f1f7a775e90ee9 = L.marker(
+            var marker_92e993ecba4b70966f6ed82459aa0705 = L.marker(
                 [45.3288, -121.6625],
                 {}
-            ).addTo(map_3162cda7778dd42f34caef5f6b4053ab);
+            ).addTo(map_d21dcae1cdfb255c056b86e95adf71da);
         
     
-            var icon_314f77b09176bda9503c1cf642404fe1 = L.AwesomeMarkers.icon(
+            var icon_c414f20183ef4e2c32c25bd2a72ebc1b = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_670aab3a0681053810f1f7a775e90ee9.setIcon(icon_314f77b09176bda9503c1cf642404fe1);
+            marker_92e993ecba4b70966f6ed82459aa0705.setIcon(icon_c414f20183ef4e2c32c25bd2a72ebc1b);
         
     
-        var popup_d51e9ed155a6bee0bf5a0167628fd948 = L.popup({"maxWidth": "100%"});
+        var popup_277b924e96534f4ee25a59fcdcddb6b8 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3d18503912eed7d56dfcb09aa485055f = $(`&lt;div id="html_3d18503912eed7d56dfcb09aa485055f" style="width: 100.0%; height: 100.0%;"&gt;Mt. Hood Meadows&lt;/div&gt;`)[0];
-                popup_d51e9ed155a6bee0bf5a0167628fd948.setContent(html_3d18503912eed7d56dfcb09aa485055f);
+                var html_ada2c45dd9516233be29b5c9dd53573d = $(`&lt;div id="html_ada2c45dd9516233be29b5c9dd53573d" style="width: 100.0%; height: 100.0%;"&gt;Mt. Hood Meadows&lt;/div&gt;`)[0];
+                popup_277b924e96534f4ee25a59fcdcddb6b8.setContent(html_ada2c45dd9516233be29b5c9dd53573d);
             
         
 
-        marker_670aab3a0681053810f1f7a775e90ee9.bindPopup(popup_d51e9ed155a6bee0bf5a0167628fd948)
+        marker_92e993ecba4b70966f6ed82459aa0705.bindPopup(popup_277b924e96534f4ee25a59fcdcddb6b8)
         ;
 
         
     
     
-            marker_670aab3a0681053810f1f7a775e90ee9.bindTooltip(
+            marker_92e993ecba4b70966f6ed82459aa0705.bindTooltip(
                 `&lt;div&gt;
                      Click me!
                  &lt;/div&gt;`,
@@ -1241,34 +1253,34 @@ m</div>
             );
         
     
-            var marker_5ce4f2a801aa12f559ec1e3f07bea3b9 = L.marker(
+            var marker_47e5683f437cc379ad49f90e49a71f3e = L.marker(
                 [45.3311, -121.7113],
                 {}
-            ).addTo(map_3162cda7778dd42f34caef5f6b4053ab);
+            ).addTo(map_d21dcae1cdfb255c056b86e95adf71da);
         
     
-            var icon_824070b569fa4b652541fc2c1618bb88 = L.AwesomeMarkers.icon(
+            var icon_606119492776613df87678bc77df762a = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
             );
-            marker_5ce4f2a801aa12f559ec1e3f07bea3b9.setIcon(icon_824070b569fa4b652541fc2c1618bb88);
+            marker_47e5683f437cc379ad49f90e49a71f3e.setIcon(icon_606119492776613df87678bc77df762a);
         
     
-        var popup_55a897ab1473a04ea5ef458020b273a5 = L.popup({"maxWidth": "100%"});
+        var popup_2b22542b1520a6c6000edfd2c2ea56dd = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_39cd28097e23a54d5258eae95c1fa1b2 = $(`&lt;div id="html_39cd28097e23a54d5258eae95c1fa1b2" style="width: 100.0%; height: 100.0%;"&gt;Timberline Lodge&lt;/div&gt;`)[0];
-                popup_55a897ab1473a04ea5ef458020b273a5.setContent(html_39cd28097e23a54d5258eae95c1fa1b2);
+                var html_4b037f231b44ca82adf302d7619daf95 = $(`&lt;div id="html_4b037f231b44ca82adf302d7619daf95" style="width: 100.0%; height: 100.0%;"&gt;Timberline Lodge&lt;/div&gt;`)[0];
+                popup_2b22542b1520a6c6000edfd2c2ea56dd.setContent(html_4b037f231b44ca82adf302d7619daf95);
             
         
 
-        marker_5ce4f2a801aa12f559ec1e3f07bea3b9.bindPopup(popup_55a897ab1473a04ea5ef458020b273a5)
+        marker_47e5683f437cc379ad49f90e49a71f3e.bindPopup(popup_2b22542b1520a6c6000edfd2c2ea56dd)
         ;
 
         
     
     
-            marker_5ce4f2a801aa12f559ec1e3f07bea3b9.bindTooltip(
+            marker_47e5683f437cc379ad49f90e49a71f3e.bindTooltip(
                 `&lt;div&gt;
                      Click me!
                  &lt;/div&gt;`,
