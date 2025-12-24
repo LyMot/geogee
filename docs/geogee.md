@@ -1,4 +1,0 @@
- 
-# geogee module
-
-::: geogee.geogee
