@@ -31,6 +31,5 @@ nav:
   - Installation: installation.md
   - Usage: usage.md
   - Notebooks:
-      - Ipyleaflet Intro: notebook/ipyleaflet_intro.ipynb
-      - Folium Intro: notebook/Folium_intro.ipynb
-    
+    - notebooks/ipyleaflet_intro.ipynb
+    - notebooks/Folium_intro.ipynb
