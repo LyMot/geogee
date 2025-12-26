@@ -2,6 +2,6 @@
 
 __author__ = """Ly Mot"""
 __email__ = 'lymot101@gmail.com'
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 from .geogee import *
