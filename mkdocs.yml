@@ -47,7 +47,7 @@ nav:
       - geogee module: geogee.md
       - utils module: utils.md
   - Notebooks:
-      - notebooks/ipyleaflet_intro.ipynb
-      - notebooks/Folium_intro.ipynb
-      - notebooks/geogee_intro.ipynb
+      - ipyleaflet intro: notebooks/ipyleaflet_intro.ipynb
+      - folium intro: notebooks/Folium_intro.ipynb
+      - geogee intro: notebooks/geogee_intro.ipynb
 
