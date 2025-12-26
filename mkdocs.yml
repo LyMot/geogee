@@ -29,14 +29,16 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Installation: installation.md
-    - Usage: usage.md
-    - Contributing: contributing.md
-    - FAQ: faq.md
-    - Report Issues: https://github.com/giswqs/geogee/issues
-    - API Reference:
-          - common module: common.md
-          - geogee module: geogee.md
-          - utils module: utils.md
+  - Usage: usage.md
+  - Contributing: contributing.md
+  - FAQ: faq.md
+  - Report Issues: https://github.com/geogee/geogee/issues
+  - API Reference:
+      - common module: common.md
+      - geogee module: geogee.md
+      - utils module: utils.md
   - Notebooks:
-    - notebooks/ipyleaflet_intro.ipynb
-    - notebooks/Folium_intro.ipynb
+      - notebooks/ipyleaflet_intro.ipynb
+      - notebooks/Folium_intro.ipynb
+      - notebooks/geogee_intro.ipynb
+
