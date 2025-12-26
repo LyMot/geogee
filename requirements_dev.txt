@@ -16,6 +16,6 @@ twine
  ipyleaflet
  matplotlib
  pyshp
- whitebox>=1.4.1
+ whitebox
  whiteboxgui
 
