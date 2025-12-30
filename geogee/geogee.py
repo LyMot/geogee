@@ -1,10 +1,17 @@
-"""Main module."""
+"""
+Main module for geogee geopackage.
+    
+This module provides helper functions and an interactive Map class
+built on top of ipyleaflet.
 
+    Args:
+        ipyleaflet (ipyleaflet.Map): The ipyleaflet Map class.
+"""
 import os
 import json
-import random
-import string
-
+# import random
+# import string
+from utils import random_string
 import ee
 import shapefile
 import ipyleaflet
@@ -18,6 +25,7 @@ from ipyleaflet import (
 )
 
 
+
 # ---------------------------------------------------------------------
 # Helper functions
 # ---------------------------------------------------------------------
@@ -28,6 +36,7 @@ def random_string(length=6):
 
 
 def shp_to_geojson(in_shp, out_geojson=None):
+
     """Converts a shapefile to GeoJSON.
 
     Args:
@@ -100,7 +109,19 @@ class Map(ipyleaflet.Map):
     # -----------------------------------------------------------------
 
     def add_geojson(self, in_geojson, style=None, layer_name="Untitled"):
-        """Adds a GeoJSON layer to the map."""
+        """Adds a GeoJSON layer to the map.
+
+        Args:
+            in_geojson (_type_): the input geojson as a file path.
+            style (dict, optional): The style of the GeoJSON layer. Defaults to None.
+            layer_name (str, optional): The name of the GeoJSON layer. Defaults to "Untitled".
+
+        Raises:
+            FileNotFoundError: if they file path is not found.
+            TypeError: if the input geojson is not a str or dict.
+        """
+
+        # """Adds a GeoJSON layer to the map."""
 
         if layer_name == "Untitled":
             layer_name = f"Untitled_{random_string()}"
@@ -138,7 +159,15 @@ class Map(ipyleaflet.Map):
     # -----------------------------------------------------------------
 
     def add_shapefile(self, in_shp, style=None, layer_name="Untitled"):
-        """Adds a shapefile to the map."""
+       
+        """Add a shapefile layer to the map.
+
+        Args:
+            in_shp (_type_): file path to the input shapefile.
+            style (dict, optional): The style of the shapefile layer. Defaults to None.
+            layer_name (str, optional): The name of the shapefile layer. Defaults to "Untitled".
+        """
+
         geojson = shp_to_geojson(in_shp)
         self.add_geojson(geojson, style=style, layer_name=layer_name)
 
@@ -147,7 +176,19 @@ class Map(ipyleaflet.Map):
 
 
     def shp_to_geojson(in_shp, out_geojson=None):
-    
+
+        """Convert a shapefile to GeoJSON.
+        Args:
+            in_shp (str): Path to input shapefile.
+            out_geojson (str, optional): Path to output GeoJSON. Defaults to None.
+
+        Raises:
+            FileNotFoundError: if the input shapefile does not exist.
+
+        Returns:
+           dict: dictionary of the GeoJSON.
+        """    
+
         in_shp = os.path.abspath(in_shp)
 
         if not os.path.exists(in_shp):
