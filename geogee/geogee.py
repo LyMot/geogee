@@ -9,9 +9,9 @@ built on top of ipyleaflet.
 """
 import os
 import json
-# import random
-# import string
-from utils import random_string
+import random
+import string
+from .utils import random_string
 import ee
 import shapefile
 import ipyleaflet

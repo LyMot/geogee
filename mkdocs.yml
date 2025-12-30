@@ -51,4 +51,5 @@ nav:
       - folium intro: notebooks/Folium_intro.ipynb
       - geogee intro: notebooks/geogee_intro.ipynb
       - add_shapefile: notebooks/add_shapefile.ipynb
+      - test_utils: notebooks/test_utils.ipynb
 
