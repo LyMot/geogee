@@ -2,50 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lymot.github.io/geogee/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/changelog/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/common/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/contributing/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/faq/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/geogee/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/installation/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/usage/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/utils/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/notebooks/Folium_intro/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
+    </url>
+    <url>
+         <loc>https://lymot.github.io/geogee/notebooks/add_shapefile/</loc>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/notebooks/geogee_intro/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
     <url>
          <loc>https://lymot.github.io/geogee/notebooks/ipyleaflet_intro/</loc>
-         <lastmod>2025-12-26</lastmod>
+         <lastmod>2025-12-30</lastmod>
     </url>
 </urlset>
