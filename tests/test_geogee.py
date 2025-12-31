@@ -5,7 +5,7 @@
 
 import unittest
 
-from geogee import geogee
+from geogee import geogee2
 
 
 class TestGeogee(unittest.TestCase):
