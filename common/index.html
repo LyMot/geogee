@@ -510,10 +510,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#geogee.common.hello_world" class="md-nav__link">
+  <a href="#geogee.common.ee_initialize" class="md-nav__link">
     <span class="md-ellipsis">
       
-        hello_world
+        ee_initialize
       
     </span>
   </a>
@@ -779,6 +779,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebooks/earthengine_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    eath_engine intro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -824,10 +852,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#geogee.common.hello_world" class="md-nav__link">
+  <a href="#geogee.common.ee_initialize" class="md-nav__link">
     <span class="md-ellipsis">
       
-        hello_world
+        ee_initialize
       
     </span>
   </a>
@@ -864,7 +892,7 @@
 <a id="geogee.common"></a>
     <div class="doc doc-contents first">
 
-        <p>The common module contains common functions and classes used by the other modules.</p>
+        <p>The common module with some common functions of ipyleaflet and folium.</p>
 
 
 
@@ -881,25 +909,51 @@
 <div class="doc doc-object doc-function">
 
 
-<h2 id="geogee.common.hello_world" class="doc doc-heading">
-            <code class="highlight language-python"><span class="n">hello_world</span><span class="p">()</span></code>
+<h2 id="geogee.common.ee_initialize" class="doc doc-heading">
+            <code class="highlight language-python"><span class="n">ee_initialize</span><span class="p">(</span><span class="n">token_name</span><span class="o">=</span><span class="s1">&#39;EARTHENGINE_TOKEN&#39;</span><span class="p">)</span></code>
 
-<a href="#geogee.common.hello_world" class="headerlink" title="Permanent link">&para;</a></h2>
+<a href="#geogee.common.ee_initialize" class="headerlink" title="Permanent link">&para;</a></h2>
 
 
     <div class="doc doc-contents ">
 
-        <p>Prints "Hello World!" to the console.</p>
+        <p>Authenticates Earth Engine and initialize an Earth Engine session</p>
 
             <details class="quote">
               <summary>Source code in <code>geogee\common.py</code></summary>
-              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span>
-<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">hello_world</span><span class="p">():</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Prints &quot;Hello World!&quot; to the console.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+              <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">ee_initialize</span><span class="p">(</span><span class="n">token_name</span><span class="o">=</span><span class="s2">&quot;EARTHENGINE_TOKEN&quot;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Authenticates Earth Engine and initialize an Earth Engine session&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">ee</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">_credentials</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">ee_token</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">token_name</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">ee_token</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">credential_file_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">expanduser</span><span class="p">(</span><span class="s2">&quot;~/.config/earthengine/&quot;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">credential_file_path</span><span class="p">):</span>
+                    <span class="n">credential</span> <span class="o">=</span> <span class="s1">&#39;{&quot;refresh_token&quot;:&quot;</span><span class="si">%s</span><span class="s1">&quot;}&#39;</span> <span class="o">%</span> <span class="n">ee_token</span>
+                    <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">credential_file_path</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+                    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">credential_file_path</span> <span class="o">+</span> <span class="s2">&quot;credentials&quot;</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+                        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">credential</span><span class="p">)</span>
+
+            <span class="n">ee</span><span class="o">.</span><span class="n">Initialize</span><span class="p">()</span>
+        <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+            <span class="n">ee</span><span class="o">.</span><span class="n">Authenticate</span><span class="p">()</span>
+            <span class="n">ee</span><span class="o">.</span><span class="n">Initialize</span><span class="p">()</span>
 </code></pre></div></td></tr></table></div>
             </details>
     </div>
