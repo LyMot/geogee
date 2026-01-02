@@ -20,7 +20,7 @@ plugins:
           paths: [.]
   - mkdocs-jupyter:
       include_source: true
-      execute: false
+      execute: true
       allow_errors: true
 
 
@@ -53,4 +53,12 @@ nav:
       - add_shapefile: notebooks/add_shapefile.ipynb
       - test_utils: notebooks/test_utils.ipynb
       - eath_engine intro: notebooks/earthengine_intro.ipynb
+      - ipyfilechooser intro: notebooks/ipyfilechooser.ipynb
+      - ipyleaflet_intro: notebooks/ipyleaflet_intro.ipynb
+      - ipywidgets_box: notebooks/ipywidgets_box.ipynb
+      - ipywidets_events: notebooks/ipywidgets_events.ipynb
+      - ipywidets: notebooks/ipywidgets.ipynb
+      - test_utils: notebooks/test_utils.ipynb
+      - toolbar: notebooks/toolbar.ipynb
+      - whiteboxgui: notebooks/whiteboxgui.ipynb
 

@@ -1,7 +1,4 @@
-
-"""
-Main module for geogee geopackage.
-"""
+"""Main module for the geogee package."""
 import os
 import ee
 import ipyleaflet
@@ -16,36 +13,40 @@ from ipyleaflet import (
 from .utils import random_string
 from .common import ee_initialize, tool_template
 from .toolbar import main_toolbar
+
+
 class Map(ipyleaflet.Map):
-    """Interactive map based on ipyleaflet."""
+    """This Map class inherits the ipyleaflet Map class.
+
+    Args:
+        ipyleaflet (ipyleaflet.Map): An ipyleaflet map.
+    """
 
     def __init__(self, **kwargs):
-        kwargs.setdefault("center", [40, -100])
-        kwargs.setdefault("zoom", 4)
-        kwargs.setdefault("scroll_wheel_zoom", True)
+
+        if "center" not in kwargs:
+            kwargs["center"] = [40, -100]
+
+        if "zoom" not in kwargs:
+            kwargs["zoom"] = 4
+
+        if "scroll_wheel_zoom" not in kwargs:
+            kwargs["scroll_wheel_zoom"] = True
 
         super().__init__(**kwargs)
 
-        self.layout.height = kwargs.get("height", "500px")
+        if "height" not in kwargs:
+            self.layout.height = "600px"
+        else:
+            self.layout.height = kwargs["height"]
 
         self.add_control(FullScreenControl())
         self.add_control(LayersControl(position="topright"))
         self.add_control(DrawControl(position="topleft"))
         self.add_control(MeasureControl())
         self.add_control(ScaleControl(position="bottomleft"))
-        
+
         main_toolbar(self)
-
-        google_map = kwargs.get("google_map", "ROADMAP")
-
-        if google_map == "HYBRID":
-            url = "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
-            name = "Google Satellite"
-        else:
-            url = "https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}"
-            name = "Google Maps"
-
-        self.add_layer(TileLayer(url=url, attribution="Google", name=name))
 
         if "google_map" not in kwargs:
             layer = TileLayer(
