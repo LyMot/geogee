@@ -12,13 +12,11 @@
         <meta name="author" content="Ly Mot">
       
       
-        <link rel="canonical" href="https://lymot.github.io/geogee/notebooks/toolbar/">
+        <link rel="canonical" href="https://lymot.github.io/geogee/notebooks/geopandas/">
       
       
-        <link rel="prev" href="../test_utils/">
+        <link rel="prev" href="../toolbar/">
       
-      
-        <link rel="next" href="../geopandas/">
       
       
         
@@ -29,7 +27,7 @@
     
     
       
-        <title>toolbar - geogee</title>
+        <title>geopandas - geogee</title>
       
     
     
@@ -72,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#creating-a-toolbar-button" class="md-skip">
+        <a href="#installation" class="md-skip">
           Skip to content
         </a>
       
@@ -108,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              toolbar
+              geopandas
             
           </span>
         </div>
@@ -910,35 +908,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    toolbar
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../toolbar/" class="md-nav__link">
         
   
   
@@ -954,68 +927,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#creating-a-toolbar-button" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Creating a toolbar button
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-toolbar-event" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Adding toolbar event
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-toolbar-grid" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Adding toolbar grid
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#adding-toolbar-to-ipyleaflet" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Adding toolbar to ipyleaflet
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1053,10 +964,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../geopandas/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    geopandas
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1072,6 +1008,134 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#import-libraries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Import libraries
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reading-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reading files
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#writing-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Writing files
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measuring area
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-polygon-bounary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting polygon bounary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-polygon-centroid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting polygon centroid
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making maps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reprojecting-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reprojecting data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#displaying-data-on-an-interative-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying data on an interative map
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1109,10 +1173,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#creating-a-toolbar-button" class="md-nav__link">
+  <a href="#installation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Creating a toolbar button
+        Installation
       
     </span>
   </a>
@@ -1120,10 +1184,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-toolbar-event" class="md-nav__link">
+  <a href="#import-libraries" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Adding toolbar event
+        Import libraries
       
     </span>
   </a>
@@ -1131,10 +1195,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-toolbar-grid" class="md-nav__link">
+  <a href="#reading-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Adding toolbar grid
+        Reading files
       
     </span>
   </a>
@@ -1142,10 +1206,76 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#adding-toolbar-to-ipyleaflet" class="md-nav__link">
+  <a href="#writing-files" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Adding toolbar to ipyleaflet
+        Writing files
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measuring-area" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measuring area
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-polygon-bounary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting polygon bounary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-polygon-centroid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting polygon centroid
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-maps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Making maps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reprojecting-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reprojecting data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#displaying-data-on-an-interative-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Displaying data on an interative map
       
     </span>
   </a>
@@ -1172,7 +1302,7 @@
   
 
 
-  <h1>toolbar</h1>
+  <h1>geopandas</h1>
 
 <script>
 (function (global, factory) {
@@ -1638,7 +1768,50 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </style>
 <!-- End of mermaid configuration --><div class="jupyter-wrapper">
 <div class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Getting Started with GeoPandas</strong></p>
+<p>References:</p>
+<ul>
+<li><a href="https://geopandas.org/getting_started/introduction.html">https://geopandas.org/getting_started/introduction.html</a></li>
+<li><a href="https://geopandas.org/docs/user_guide/io.html">https://geopandas.org/docs/user_guide/io.html</a></li>
+<li><a href="https://geogee.gishub.org">https://geogee.gishub.org</a></li>
+<li><a href="https://geemap.org">https://geemap.org</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="installation">Installation<a class="anchor-link" href="#installation">¶</a></h2><pre><code>conda create -n geo python=3.8
+conda activate geo
+conda install geopandas
+conda install geogee matplotlib descartes -c conda-forge
+</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="import-libraries">Import libraries<a class="anchor-link" href="#import-libraries">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -1658,12 +1831,10 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 </clipboard-copy>
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">geogee</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">ipywidgets</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">widgets</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">ipyleaflet</span><span class="w"> </span><span class="kn">import</span> <span class="n">WidgetControl</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">geopandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">gpd</span>
 </pre></div>
 <div class="clipboard-copy-txt" id="cell-1">import geogee
-import ipywidgets as widgets
-from ipyleaflet import WidgetControl</div>
+import geopandas as gpd</div>
 </div>
 </div>
 </div>
@@ -1680,6 +1851,140 @@ from ipyleaflet import WidgetControl</div>
 </pre>
 </div>
 </div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
+<span class="ansi-red-intense-fg ansi-bold">ImportError</span>: DLL load failed while importing _multiarray_umath: The specified module could not be found.</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">ImportError</span>                               Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[1], line 2</span>
+<span class="ansi-green-fg">      1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">geogee</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 2</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">geopandas</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">as</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">gpd</span>
+
+File <span class="ansi-green-intense-fg ansi-bold">~\miniconda3\envs\demo310\lib\site-packages\geopandas\__init__.py:3</span>
+<span class="ansi-green-fg">      1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">geopandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">_config</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> options
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 3</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">geopandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">geoseries</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> GeoSeries
+<span class="ansi-green-fg">      4</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">geopandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">geodataframe</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> GeoDataFrame
+<span class="ansi-green-fg">      5</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">geopandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">array</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> points_from_xy
+
+File <span class="ansi-green-intense-fg ansi-bold">~\miniconda3\envs\demo310\lib\site-packages\geopandas\geoseries.py:8</span>
+<span class="ansi-green-fg">      5</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">typing</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> Any
+<span class="ansi-green-fg">      7</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">numpy</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">as</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">np</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 8</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">as</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pd</span>
+<span class="ansi-green-fg">      9</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> Series
+<span class="ansi-green-fg">     10</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">core</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">internals</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> SingleBlockManager
+
+File <span class="ansi-green-intense-fg ansi-bold">~\miniconda3\envs\demo310\lib\site-packages\pandas\__init__.py:49</span>
+<span class="ansi-green-fg">     46</span> <span style="color: rgb(95,135,135)"># let init-time option registration happen</span>
+<span class="ansi-green-fg">     47</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">core</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">config_init</span>  <span style="color: rgb(95,135,135)"># pyright: ignore[reportUnusedImport] # noqa: F401</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 49</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">core</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">api</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> (
+<span class="ansi-green-fg">     50</span>     <span style="color: rgb(95,135,135)"># dtype</span>
+<span class="ansi-green-fg">     51</span>     ArrowDtype,
+<span class="ansi-green-fg">     52</span>     Int8Dtype,
+<span class="ansi-green-fg">     53</span>     Int16Dtype,
+<span class="ansi-green-fg">     54</span>     Int32Dtype,
+<span class="ansi-green-fg">     55</span>     Int64Dtype,
+<span class="ansi-green-fg">     56</span>     UInt8Dtype,
+<span class="ansi-green-fg">     57</span>     UInt16Dtype,
+<span class="ansi-green-fg">     58</span>     UInt32Dtype,
+<span class="ansi-green-fg">     59</span>     UInt64Dtype,
+<span class="ansi-green-fg">     60</span>     Float32Dtype,
+<span class="ansi-green-fg">     61</span>     Float64Dtype,
+<span class="ansi-green-fg">     62</span>     CategoricalDtype,
+<span class="ansi-green-fg">     63</span>     PeriodDtype,
+<span class="ansi-green-fg">     64</span>     IntervalDtype,
+<span class="ansi-green-fg">     65</span>     DatetimeTZDtype,
+<span class="ansi-green-fg">     66</span>     StringDtype,
+<span class="ansi-green-fg">     67</span>     BooleanDtype,
+<span class="ansi-green-fg">     68</span>     <span style="color: rgb(95,135,135)"># missing</span>
+<span class="ansi-green-fg">     69</span>     NA,
+<span class="ansi-green-fg">     70</span>     isna,
+<span class="ansi-green-fg">     71</span>     isnull,
+<span class="ansi-green-fg">     72</span>     notna,
+<span class="ansi-green-fg">     73</span>     notnull,
+<span class="ansi-green-fg">     74</span>     <span style="color: rgb(95,135,135)"># indexes</span>
+<span class="ansi-green-fg">     75</span>     Index,
+<span class="ansi-green-fg">     76</span>     CategoricalIndex,
+<span class="ansi-green-fg">     77</span>     RangeIndex,
+<span class="ansi-green-fg">     78</span>     MultiIndex,
+<span class="ansi-green-fg">     79</span>     IntervalIndex,
+<span class="ansi-green-fg">     80</span>     TimedeltaIndex,
+<span class="ansi-green-fg">     81</span>     DatetimeIndex,
+<span class="ansi-green-fg">     82</span>     PeriodIndex,
+<span class="ansi-green-fg">     83</span>     IndexSlice,
+<span class="ansi-green-fg">     84</span>     <span style="color: rgb(95,135,135)"># tseries</span>
+<span class="ansi-green-fg">     85</span>     NaT,
+<span class="ansi-green-fg">     86</span>     Period,
+<span class="ansi-green-fg">     87</span>     period_range,
+<span class="ansi-green-fg">     88</span>     Timedelta,
+<span class="ansi-green-fg">     89</span>     timedelta_range,
+<span class="ansi-green-fg">     90</span>     Timestamp,
+<span class="ansi-green-fg">     91</span>     date_range,
+<span class="ansi-green-fg">     92</span>     bdate_range,
+<span class="ansi-green-fg">     93</span>     Interval,
+<span class="ansi-green-fg">     94</span>     interval_range,
+<span class="ansi-green-fg">     95</span>     DateOffset,
+<span class="ansi-green-fg">     96</span>     <span style="color: rgb(95,135,135)"># conversion</span>
+<span class="ansi-green-fg">     97</span>     to_numeric,
+<span class="ansi-green-fg">     98</span>     to_datetime,
+<span class="ansi-green-fg">     99</span>     to_timedelta,
+<span class="ansi-green-fg">    100</span>     <span style="color: rgb(95,135,135)"># misc</span>
+<span class="ansi-green-fg">    101</span>     Flags,
+<span class="ansi-green-fg">    102</span>     Grouper,
+<span class="ansi-green-fg">    103</span>     factorize,
+<span class="ansi-green-fg">    104</span>     unique,
+<span class="ansi-green-fg">    105</span>     value_counts,
+<span class="ansi-green-fg">    106</span>     NamedAgg,
+<span class="ansi-green-fg">    107</span>     array,
+<span class="ansi-green-fg">    108</span>     Categorical,
+<span class="ansi-green-fg">    109</span>     set_eng_float_format,
+<span class="ansi-green-fg">    110</span>     Series,
+<span class="ansi-green-fg">    111</span>     DataFrame,
+<span class="ansi-green-fg">    112</span> )
+<span class="ansi-green-fg">    114</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">core</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">dtypes</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">dtypes</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> SparseDtype
+<span class="ansi-green-fg">    116</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">tseries</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">api</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> infer_freq
+
+File <span class="ansi-green-intense-fg ansi-bold">~\miniconda3\envs\demo310\lib\site-packages\pandas\core\api.py:1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">_libs</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> (
+<span class="ansi-green-fg">      2</span>     NaT,
+<span class="ansi-green-fg">      3</span>     Period,
+<span class="ansi-green-fg">      4</span>     Timedelta,
+<span class="ansi-green-fg">      5</span>     Timestamp,
+<span class="ansi-green-fg">      6</span> )
+<span class="ansi-green-fg">      7</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">_libs</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">missing</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> NA
+<span class="ansi-green-fg">      9</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">core</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">dtypes</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">dtypes</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> (
+<span class="ansi-green-fg">     10</span>     ArrowDtype,
+<span class="ansi-green-fg">     11</span>     CategoricalDtype,
+<span class="ansi-green-intense-fg ansi-bold">   (...)</span>
+<span class="ansi-green-fg">     14</span>     PeriodDtype,
+<span class="ansi-green-fg">     15</span> )
+
+File <span class="ansi-green-intense-fg ansi-bold">~\miniconda3\envs\demo310\lib\site-packages\pandas\_libs\__init__.py:17</span>
+<span class="ansi-green-fg">     13</span> <span style="color: rgb(95,135,135)"># Below imports needs to happen first to ensure pandas top level</span>
+<span class="ansi-green-fg">     14</span> <span style="color: rgb(95,135,135)"># module gets monkeypatched with the pandas_datetime_CAPI</span>
+<span class="ansi-green-fg">     15</span> <span style="color: rgb(95,135,135)"># see pandas_datetime_exec in pd_datetime.c</span>
+<span class="ansi-green-fg">     16</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">_libs</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas_parser</span>  <span style="color: rgb(95,135,135)"># isort: skip # type: ignore[reportUnusedImport]</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 17</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">_libs</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas_datetime</span>  <span style="color: rgb(95,135,135)"># noqa: F401 # isort: skip # type: ignore[reportUnusedImport]</span>
+<span class="ansi-green-fg">     18</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">_libs</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">interval</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> Interval
+<span class="ansi-green-fg">     19</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">_libs</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">tslibs</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> (
+<span class="ansi-green-fg">     20</span>     NaT,
+<span class="ansi-green-fg">     21</span>     NaTType,
+<span class="ansi-green-intense-fg ansi-bold">   (...)</span>
+<span class="ansi-green-fg">     26</span>     iNaT,
+<span class="ansi-green-fg">     27</span> )
+
+<span class="ansi-red-intense-fg ansi-bold">ImportError</span>: numpy._core.multiarray failed to import</pre>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -1690,7 +1995,7 @@ from ipyleaflet import WidgetControl</div>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="creating-a-toolbar-button">Creating a toolbar button<a class="anchor-link" href="#creating-a-toolbar-button">¶</a></h2>
+<h2 id="reading-files">Reading files<a class="anchor-link" href="#reading-files">¶</a></h2>
 </div>
 </div>
 </div>
@@ -1713,41 +2018,9 @@ from ipyleaflet import WidgetControl</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">widget_width</span> <span class="o">=</span> <span class="s2">"250px"</span>
-<span class="n">padding</span> <span class="o">=</span> <span class="s2">"0px 0px 0px 5px"</span>  <span class="c1"># upper, right, bottom, left</span>
-
-<span class="n">toolbar_button</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">ToggleButton</span><span class="p">(</span>
-    <span class="n">value</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">tooltip</span><span class="o">=</span><span class="s2">"Toolbar"</span><span class="p">,</span>
-    <span class="n">icon</span><span class="o">=</span><span class="s2">"wrench"</span><span class="p">,</span>
-    <span class="n">layout</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">"28px"</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="s2">"28px"</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="n">padding</span><span class="p">),</span>
-<span class="p">)</span>
-
-<span class="n">close_button</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">ToggleButton</span><span class="p">(</span>
-    <span class="n">value</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
-    <span class="n">tooltip</span><span class="o">=</span><span class="s2">"Close the tool"</span><span class="p">,</span>
-    <span class="n">icon</span><span class="o">=</span><span class="s2">"times"</span><span class="p">,</span>
-    <span class="n">button_style</span><span class="o">=</span><span class="s2">"primary"</span><span class="p">,</span>
-    <span class="n">layout</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">height</span><span class="o">=</span><span class="s2">"28px"</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s2">"28px"</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="n">padding</span><span class="p">),</span>
-<span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="s2">"https://raw.githubusercontent.com/giswqs/geogee/master/examples/data/nyc_neighborhoods.geojson"</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-2">widget_width = "250px"
-padding = "0px 0px 0px 5px"  # upper, right, bottom, left
-
-toolbar_button = widgets.ToggleButton(
-    value=False,
-    tooltip="Toolbar",
-    icon="wrench",
-    layout=widgets.Layout(width="28px", height="28px", padding=padding),
-)
-
-close_button = widgets.ToggleButton(
-    value=False,
-    tooltip="Close the tool",
-    icon="times",
-    button_style="primary",
-    layout=widgets.Layout(height="28px", width="28px", padding=padding),
-)</div>
+<div class="clipboard-copy-txt" id="cell-2">url = "https://raw.githubusercontent.com/giswqs/geogee/master/examples/data/nyc_neighborhoods.geojson"</div>
 </div>
 </div>
 </div>
@@ -1772,11 +2045,9 @@ close_button = widgets.ToggleButton(
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">toolbar</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">toolbar_button</span><span class="p">])</span>
-<span class="n">toolbar</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-3">toolbar = widgets.HBox([toolbar_button])
-toolbar</div>
+<div class="clipboard-copy-txt" id="cell-3">gdf = gpd.read_file(url)</div>
 </div>
 </div>
 </div>
@@ -1785,33 +2056,23 @@ toolbar</div>
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
-<div class="jupyter-widgets jp-OutputArea-output jp-OutputArea-executeResult" id="3972df02-3e73-45ab-8561-b4134e3005f8" tabindex="0">
-<script type="text/javascript">
-var element = document.getElementById('3972df02-3e73-45ab-8561-b4134e3005f8');
-</script>
-<script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "f66f07c389c54c0f96beb696cc76d646"}
-</script>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[3], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gpd</span><span style="color: rgb(98,98,98)">.</span>read_file(url)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gpd' is not defined</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="adding-toolbar-event">Adding toolbar event<a class="anchor-link" href="#adding-toolbar-event">¶</a></h2>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -1829,21 +2090,27 @@ var element = document.getElementById('3972df02-3e73-45ab-8561-b4134e3005f8');
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">toolbar_click</span><span class="p">(</span><span class="n">change</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">change</span><span class="p">[</span><span class="s2">"new"</span><span class="p">]:</span>
-        <span class="n">toolbar</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">toolbar_button</span><span class="p">,</span> <span class="n">close_button</span><span class="p">]</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">toolbar</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">toolbar_button</span><span class="p">]</span>
-        
-<span class="n">toolbar_button</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">toolbar_click</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-4">def toolbar_click(change):
-    if change["new"]:
-        toolbar.children = [toolbar_button, close_button]
-    else:
-        toolbar.children = [toolbar_button]
-        
-toolbar_button.observe(toolbar_click, "value")</div>
+<div class="clipboard-copy-txt" id="cell-4">gdf</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[4], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">gdf</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
@@ -1868,23 +2135,9 @@ toolbar_button.observe(toolbar_click, "value")</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">close_click</span><span class="p">(</span><span class="n">change</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">change</span><span class="p">[</span><span class="s2">"new"</span><span class="p">]:</span>
-        <span class="n">toolbar_button</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-        <span class="n">close_button</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-        <span class="n">toolbar</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-        
-<span class="n">close_button</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">close_click</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">)</span>
-<span class="n">toolbar</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span><span class="o">.</span><span class="n">crs</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-5">def close_click(change):
-    if change["new"]:
-        toolbar_button.close()
-        close_button.close()
-        toolbar.close()
-        
-close_button.observe(close_click, "value")
-toolbar</div>
+<div class="clipboard-copy-txt" id="cell-5">gdf.crs</div>
 </div>
 </div>
 </div>
@@ -1893,15 +2146,16 @@ toolbar</div>
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
-<div class="jupyter-widgets jp-OutputArea-output jp-OutputArea-executeResult" id="89cb51f7-e3f0-4964-aa40-f764aecabcbd" tabindex="0">
-<script type="text/javascript">
-var element = document.getElementById('89cb51f7-e3f0-4964-aa40-f764aecabcbd');
-</script>
-<script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "f66f07c389c54c0f96beb696cc76d646"}
-</script>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[5], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>crs
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
@@ -1914,12 +2168,12 @@ var element = document.getElementById('89cb51f7-e3f0-4964-aa40-f764aecabcbd');
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="adding-toolbar-grid">Adding toolbar grid<a class="anchor-link" href="#adding-toolbar-grid">¶</a></h2>
+<h2 id="writing-files">Writing files<a class="anchor-link" href="#writing-files">¶</a></h2>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -1937,13 +2191,27 @@ var element = document.getElementById('89cb51f7-e3f0-4964-aa40-f764aecabcbd');
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">rows</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">cols</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">grid</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">GridspecLayout</span><span class="p">(</span><span class="n">rows</span><span class="p">,</span> <span class="n">cols</span><span class="p">,</span> <span class="n">grid_gap</span><span class="o">=</span><span class="s2">"0px"</span><span class="p">,</span> <span class="n">layout</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">"62px"</span><span class="p">))</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span><span class="o">.</span><span class="n">to_file</span><span class="p">(</span><span class="s2">"data/nyc_streets.geojson"</span><span class="p">,</span> <span class="n">driver</span><span class="o">=</span><span class="s2">"GeoJSON"</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-6">rows = 2
-cols = 2
-grid = widgets.GridspecLayout(rows, cols, grid_gap="0px", layout=widgets.Layout(width="62px"))</div>
+<div class="clipboard-copy-txt" id="cell-6">gdf.to_file("data/nyc_streets.geojson", driver="GeoJSON")</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[6], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>to_file(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">data/nyc_streets.geojson</span><span style="color: rgb(175,0,0)">"</span>, driver<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">GeoJSON</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
@@ -1956,7 +2224,7 @@ grid = widgets.GridspecLayout(rows, cols, grid_gap="0px", layout=widgets.Layout(
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>icons: <a href="https://fontawesome.com/v4.7.0/icons/">https://fontawesome.com/v4.7.0/icons/</a></p>
+<h2 id="measuring-area">Measuring area<a class="anchor-link" href="#measuring-area">¶</a></h2>
 </div>
 </div>
 </div>
@@ -1979,21 +2247,9 @@ grid = widgets.GridspecLayout(rows, cols, grid_gap="0px", layout=widgets.Layout(
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">icons</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"folder-open"</span><span class="p">,</span> <span class="s2">"map"</span><span class="p">,</span> <span class="s2">"info"</span><span class="p">,</span> <span class="s2">"question"</span><span class="p">]</span>
-
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">rows</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">cols</span><span class="p">):</span>
-        <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">""</span><span class="p">,</span> <span class="n">button_style</span><span class="o">=</span><span class="s2">"primary"</span><span class="p">,</span> <span class="n">icon</span><span class="o">=</span><span class="n">icons</span><span class="p">[</span><span class="n">i</span><span class="o">*</span><span class="n">rows</span><span class="o">+</span><span class="n">j</span><span class="p">],</span> 
-                                    <span class="n">layout</span><span class="o">=</span><span class="n">widgets</span><span class="o">.</span><span class="n">Layout</span><span class="p">(</span><span class="n">width</span><span class="o">=</span><span class="s2">"28px"</span><span class="p">,</span> <span class="n">padding</span><span class="o">=</span><span class="s2">"0px"</span><span class="p">))</span>
-<span class="n">grid</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span> <span class="o">=</span> <span class="n">gdf</span><span class="o">.</span><span class="n">set_index</span><span class="p">(</span><span class="s2">"NAME"</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-7">icons = ["folder-open", "map", "info", "question"]
-
-for i in range(rows):
-    for j in range(cols):
-        grid[i, j] = widgets.Button(description="", button_style="primary", icon=icons[i*rows+j], 
-                                    layout=widgets.Layout(width="28px", padding="0px"))
-grid</div>
+<div class="clipboard-copy-txt" id="cell-7">gdf = gdf.set_index("NAME")</div>
 </div>
 </div>
 </div>
@@ -2002,22 +2258,23 @@ grid</div>
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
-<div class="jupyter-widgets jp-OutputArea-output jp-OutputArea-executeResult" id="f47d8113-c047-4636-a883-8f2d5d509ec1" tabindex="0">
-<script type="text/javascript">
-var element = document.getElementById('f47d8113-c047-4636-a883-8f2d5d509ec1');
-</script>
-<script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "dac971730ed64d0ca37d0d5d74b74303"}
-</script>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[7], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>set_index(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">NAME</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2035,11 +2292,43 @@ var element = document.getElementById('f47d8113-c047-4636-a883-8f2d5d509ec1');
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">toolbar</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">VBox</span><span class="p">([</span><span class="n">toolbar_button</span><span class="p">])</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span><span class="p">[</span><span class="s2">"area"</span><span class="p">]</span> <span class="o">=</span> <span class="n">gdf</span><span class="o">.</span><span class="n">area</span>
+<span class="n">gdf</span><span class="p">[</span><span class="s2">"area"</span><span class="p">]</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-8">toolbar = widgets.VBox([toolbar_button])</div>
+<div class="clipboard-copy-txt" id="cell-8">gdf["area"] = gdf.area
+gdf["area"]</div>
 </div>
 </div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[8], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf[<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">area</span><span style="color: rgb(175,0,0)">"</span>] <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>area
+<span class="ansi-green-fg">      2</span> gdf[<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">area</span><span style="color: rgb(175,0,0)">"</span>]
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="getting-polygon-bounary">Getting polygon bounary<a class="anchor-link" href="#getting-polygon-bounary">¶</a></h2>
 </div>
 </div>
 </div>
@@ -2062,23 +2351,11 @@ var element = document.getElementById('f47d8113-c047-4636-a883-8f2d5d509ec1');
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">toolbar_click</span><span class="p">(</span><span class="n">change</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">change</span><span class="p">[</span><span class="s2">"new"</span><span class="p">]:</span>
-        <span class="n">toolbar</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">widgets</span><span class="o">.</span><span class="n">HBox</span><span class="p">([</span><span class="n">close_button</span><span class="p">,</span> <span class="n">toolbar_button</span><span class="p">]),</span> <span class="n">grid</span><span class="p">]</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="n">toolbar</span><span class="o">.</span><span class="n">children</span> <span class="o">=</span> <span class="p">[</span><span class="n">toolbar_button</span><span class="p">]</span>
-        
-<span class="n">toolbar_button</span><span class="o">.</span><span class="n">observe</span><span class="p">(</span><span class="n">toolbar_click</span><span class="p">,</span> <span class="s2">"value"</span><span class="p">)</span>
-<span class="n">toolbar</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span><span class="p">[</span><span class="s1">'boundary'</span><span class="p">]</span> <span class="o">=</span> <span class="n">gdf</span><span class="o">.</span><span class="n">boundary</span>
+<span class="n">gdf</span><span class="p">[</span><span class="s1">'boundary'</span><span class="p">]</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-9">def toolbar_click(change):
-    if change["new"]:
-        toolbar.children = [widgets.HBox([close_button, toolbar_button]), grid]
-    else:
-        toolbar.children = [toolbar_button]
-        
-toolbar_button.observe(toolbar_click, "value")
-toolbar</div>
+<div class="clipboard-copy-txt" id="cell-9">gdf['boundary'] = gdf.boundary
+gdf['boundary']</div>
 </div>
 </div>
 </div>
@@ -2087,15 +2364,17 @@ toolbar</div>
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
-<div class="jupyter-widgets jp-OutputArea-output jp-OutputArea-executeResult" id="3778193b-f244-4f5d-a5c7-5eb0d0f0a6c8" tabindex="0">
-<script type="text/javascript">
-var element = document.getElementById('3778193b-f244-4f5d-a5c7-5eb0d0f0a6c8');
-</script>
-<script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "e83e779d2ad849809c34096ed929e91d"}
-</script>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[9], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf[<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">boundary</span><span style="color: rgb(175,0,0)">'</span>] <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>boundary
+<span class="ansi-green-fg">      2</span> gdf[<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">boundary</span><span style="color: rgb(175,0,0)">'</span>]
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
@@ -2108,12 +2387,12 @@ var element = document.getElementById('3778193b-f244-4f5d-a5c7-5eb0d0f0a6c8');
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h2 id="adding-toolbar-to-ipyleaflet">Adding toolbar to ipyleaflet<a class="anchor-link" href="#adding-toolbar-to-ipyleaflet">¶</a></h2>
+<h2 id="getting-polygon-centroid">Getting polygon centroid<a class="anchor-link" href="#getting-polygon-centroid">¶</a></h2>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2131,11 +2410,43 @@ var element = document.getElementById('3778193b-f244-4f5d-a5c7-5eb0d0f0a6c8');
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">toolbar_ctrl</span> <span class="o">=</span> <span class="n">WidgetControl</span><span class="p">(</span><span class="n">widget</span><span class="o">=</span><span class="n">toolbar</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="s2">"topright"</span><span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span><span class="p">[</span><span class="s1">'centroid'</span><span class="p">]</span> <span class="o">=</span> <span class="n">gdf</span><span class="o">.</span><span class="n">centroid</span>
+<span class="n">gdf</span><span class="p">[</span><span class="s1">'centroid'</span><span class="p">]</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-10">toolbar_ctrl = WidgetControl(widget=toolbar, position="topright")</div>
+<div class="clipboard-copy-txt" id="cell-10">gdf['centroid'] = gdf.centroid
+gdf['centroid']</div>
 </div>
 </div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[10], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf[<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">centroid</span><span style="color: rgb(175,0,0)">'</span>] <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>centroid
+<span class="ansi-green-fg">      2</span> gdf[<span style="color: rgb(175,0,0)">'</span><span style="color: rgb(175,0,0)">centroid</span><span style="color: rgb(175,0,0)">'</span>]
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="making-maps">Making maps<a class="anchor-link" href="#making-maps">¶</a></h2>
 </div>
 </div>
 </div>
@@ -2158,13 +2469,9 @@ var element = document.getElementById('3778193b-f244-4f5d-a5c7-5eb0d0f0a6c8');
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">geogee</span><span class="o">.</span><span class="n">Map</span><span class="p">()</span>
-<span class="n">m</span><span class="o">.</span><span class="n">add_control</span><span class="p">(</span><span class="n">toolbar_ctrl</span><span class="p">)</span>
-<span class="n">m</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-11">m = geogee.Map()
-m.add_control(toolbar_ctrl)
-m</div>
+<div class="clipboard-copy-txt" id="cell-11">gdf.plot()</div>
 </div>
 </div>
 </div>
@@ -2173,22 +2480,23 @@ m</div>
 <div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[11]:</div>
-<div class="jupyter-widgets jp-OutputArea-output jp-OutputArea-executeResult" id="79efabed-ff33-4225-b380-e4c5cfbc75b8" tabindex="0">
-<script type="text/javascript">
-var element = document.getElementById('79efabed-ff33-4225-b380-e4c5cfbc75b8');
-</script>
-<script type="application/vnd.jupyter.widget-view+json">
-{"version_major": 2, "version_minor": 0, "model_id": "cf1c1d076c20487c85c965653622b36a"}
-</script>
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[11], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>plot()
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2206,20 +2514,34 @@ var element = document.getElementById('79efabed-ff33-4225-b380-e4c5cfbc75b8');
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">output</span> <span class="o">=</span> <span class="n">widgets</span><span class="o">.</span><span class="n">Output</span><span class="p">()</span>
-<span class="n">output_ctrl</span> <span class="o">=</span> <span class="n">WidgetControl</span><span class="p">(</span><span class="n">widget</span><span class="o">=</span><span class="n">output</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="s2">"bottomright"</span><span class="p">)</span>
-<span class="n">m</span><span class="o">.</span><span class="n">add_control</span><span class="p">(</span><span class="n">output_ctrl</span><span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s2">"area"</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-12">output = widgets.Output()
-output_ctrl = WidgetControl(widget=output, position="bottomright")
-m.add_control(output_ctrl)</div>
+<div class="clipboard-copy-txt" id="cell-12">gdf.plot("area", legend=True, figsize=(10, 8))</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[12], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>plot(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">area</span><span style="color: rgb(175,0,0)">"</span>, legend<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">True</span>, figsize<span style="color: rgb(98,98,98)">=</span>(<span style="color: rgb(98,98,98)">10</span>, <span style="color: rgb(98,98,98)">8</span>))
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2237,22 +2559,37 @@ m.add_control(output_ctrl)</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">tool_click</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>    
-    <span class="k">with</span> <span class="n">output</span><span class="p">:</span>
-        <span class="n">output</span><span class="o">.</span><span class="n">clear_output</span><span class="p">()</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"You clicked the </span><span class="si">{</span><span class="n">b</span><span class="o">.</span><span class="n">icon</span><span class="si">}</span><span class="s2"> button"</span><span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span> <span class="o">=</span> <span class="n">gdf</span><span class="o">.</span><span class="n">set_geometry</span><span class="p">(</span><span class="s2">"centroid"</span><span class="p">)</span>
+<span class="n">gdf</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s2">"area"</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-13">def tool_click(b):    
-    with output:
-        output.clear_output()
-        print(f"You clicked the {b.icon} button")</div>
+<div class="clipboard-copy-txt" id="cell-13">gdf = gdf.set_geometry("centroid")
+gdf.plot("area", legend=True,figsize=(10, 8))</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[13], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>set_geometry(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">centroid</span><span style="color: rgb(175,0,0)">"</span>)
+<span class="ansi-green-fg">      2</span> gdf<span style="color: rgb(98,98,98)">.</span>plot(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">area</span><span style="color: rgb(175,0,0)">"</span>, legend<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">True</span>,figsize<span style="color: rgb(98,98,98)">=</span>(<span style="color: rgb(98,98,98)">10</span>, <span style="color: rgb(98,98,98)">8</span>))
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
@@ -2270,15 +2607,75 @@ m.add_control(output_ctrl)</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">rows</span><span class="p">):</span>
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">cols</span><span class="p">):</span>
-        <span class="n">tool</span> <span class="o">=</span> <span class="n">grid</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">]</span>
-        <span class="n">tool</span><span class="o">.</span><span class="n">on_click</span><span class="p">(</span><span class="n">tool_click</span><span class="p">)</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">ax</span> <span class="o">=</span> <span class="n">gdf</span><span class="p">[</span><span class="s2">"geometry"</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">gdf</span><span class="p">[</span><span class="s2">"centroid"</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">ax</span><span class="o">=</span><span class="n">ax</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">"black"</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-14">for i in range(rows):
-    for j in range(cols):
-        tool = grid[i, j]
-        tool.on_click(tool_click)</div>
+<div class="clipboard-copy-txt" id="cell-14">ax = gdf["geometry"].plot(figsize=(10, 8))
+gdf["centroid"].plot(ax=ax, color="black")</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[14], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> ax <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span>[<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">geometry</span><span style="color: rgb(175,0,0)">"</span>]<span style="color: rgb(98,98,98)">.</span>plot(figsize<span style="color: rgb(98,98,98)">=</span>(<span style="color: rgb(98,98,98)">10</span>, <span style="color: rgb(98,98,98)">8</span>))
+<span class="ansi-green-fg">      2</span> gdf[<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">centroid</span><span style="color: rgb(175,0,0)">"</span>]<span style="color: rgb(98,98,98)">.</span>plot(ax<span style="color: rgb(98,98,98)">=</span>ax, color<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">black</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-15">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span> <span class="o">=</span> <span class="n">gdf</span><span class="o">.</span><span class="n">set_geometry</span><span class="p">(</span><span class="s2">"geometry"</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-15">gdf = gdf.set_geometry("geometry")</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[15], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>set_geometry(<span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">geometry</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
 </div>
 </div>
 </div>
@@ -2291,7 +2688,566 @@ m.add_control(output_ctrl)</div>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><img alt="" src="https://i.imgur.com/3LbyC1Y.gif"/></p>
+<h2 id="reprojecting-data">Reprojecting data<a class="anchor-link" href="#reprojecting-data">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-16">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="s2">"https://raw.githubusercontent.com/giswqs/geogee/master/examples/data/nyc_neighborhoods.geojson"</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-16">url = "https://raw.githubusercontent.com/giswqs/geogee/master/examples/data/nyc_neighborhoods.geojson"</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-17">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-17">gdf = gpd.read_file(url)</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[17], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gpd</span><span style="color: rgb(98,98,98)">.</span>read_file(url)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gpd' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-18">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf_crs</span> <span class="o">=</span> <span class="n">gdf</span><span class="o">.</span><span class="n">to_crs</span><span class="p">(</span><span class="n">epsg</span><span class="o">=</span><span class="s2">"4326"</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-18">gdf_crs = gdf.to_crs(epsg="4326")</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[18], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf_crs <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf</span><span style="color: rgb(98,98,98)">.</span>to_crs(epsg<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">4326</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-19">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf_crs</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-19">gdf_crs</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[19], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> <span class="ansi-yellow-bg">gdf_crs</span>
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf_crs' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-20">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">geojson</span> <span class="o">=</span> <span class="n">gdf_crs</span><span class="o">.</span><span class="n">__geo_interface__</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-20">geojson = gdf_crs.__geo_interface__</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[20], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> geojson <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf_crs</span><span style="color: rgb(98,98,98)">.</span>__geo_interface__
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf_crs' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="displaying-data-on-an-interative-map">Displaying data on an interative map<a class="anchor-link" href="#displaying-data-on-an-interative-map">¶</a></h2>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-21">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span> <span class="o">=</span> <span class="n">geogee</span><span class="o">.</span><span class="n">Map</span><span class="p">(</span><span class="n">center</span><span class="o">=</span><span class="p">[</span><span class="mf">40.7341</span><span class="p">,</span> <span class="o">-</span><span class="mf">73.9113</span><span class="p">],</span> <span class="n">zoom</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">m</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-21">m = geogee.Map(center=[40.7341, -73.9113], zoom=10)
+m</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+<div class="jupyter-widgets jp-OutputArea-output jp-OutputArea-executeResult" id="9899d347-db38-4da7-8c87-547d9cdc926c" tabindex="0">
+<script type="text/javascript">
+var element = document.getElementById('9899d347-db38-4da7-8c87-547d9cdc926c');
+</script>
+<script type="application/vnd.jupyter.widget-view+json">
+{"version_major": 2, "version_minor": 0, "model_id": "ca410aa9bd454756abf349f6263857d7"}
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-22">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">style</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">"stroke"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">"color"</span><span class="p">:</span> <span class="s2">"#000000"</span><span class="p">,</span>
+    <span class="s2">"weight"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="s2">"opacity"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="s2">"fill"</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">"fillColor"</span><span class="p">:</span> <span class="s2">"#0000ff"</span><span class="p">,</span>
+    <span class="s2">"fillOpacity"</span><span class="p">:</span> <span class="mf">0.4</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-22">style = {
+    "stroke": True,
+    "color": "#000000",
+    "weight": 2,
+    "opacity": 1,
+    "fill": True,
+    "fillColor": "#0000ff",
+    "fillOpacity": 0.4,
+}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-23">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span><span class="o">.</span><span class="n">add_geojson</span><span class="p">(</span><span class="n">geojson</span><span class="p">,</span> <span class="n">style</span><span class="o">=</span><span class="n">style</span><span class="p">,</span> <span class="n">layer_name</span><span class="o">=</span><span class="s2">"nyc neighborhoods"</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-23">m.add_geojson(geojson, style=style, layer_name="nyc neighborhoods")</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[23], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> m<span style="color: rgb(98,98,98)">.</span>add_geojson(<span class="ansi-yellow-bg">geojson</span>, style<span style="color: rgb(98,98,98)">=</span>style, layer_name<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">nyc neighborhoods</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'geojson' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-24">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">url2</span> <span class="o">=</span> <span class="s2">"https://github.com/giswqs/geogee/raw/master/examples/data/nyc_subway_stations.zip"</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-24">url2 = "https://github.com/giswqs/geogee/raw/master/examples/data/nyc_subway_stations.zip"</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-25">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf_subway</span> <span class="o">=</span> <span class="n">gpd</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">url2</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-25">gdf_subway = gpd.read_file(url2)</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[25], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf_subway <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gpd</span><span style="color: rgb(98,98,98)">.</span>read_file(url2)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gpd' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-26">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">gdf_subway_crs</span> <span class="o">=</span> <span class="n">gdf_subway</span><span class="o">.</span><span class="n">to_crs</span><span class="p">(</span><span class="n">epsg</span><span class="o">=</span><span class="s2">"4326"</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-26">gdf_subway_crs = gdf_subway.to_crs(epsg="4326")</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[26], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> gdf_subway_crs <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf_subway</span><span style="color: rgb(98,98,98)">.</span>to_crs(epsg<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">4326</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf_subway' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-27">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">subway_geojson</span> <span class="o">=</span> <span class="n">gdf_subway_crs</span><span class="o">.</span><span class="n">__geo_interface__</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-27">subway_geojson = gdf_subway_crs.__geo_interface__</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[27], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> subway_geojson <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">gdf_subway_crs</span><span style="color: rgb(98,98,98)">.</span>__geo_interface__
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'gdf_subway_crs' is not defined</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [28]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy ,="" aria-label="Copy to Clipboard" for="cell-28">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">m</span><span class="o">.</span><span class="n">add_geojson</span><span class="p">(</span><span class="n">subway_geojson</span><span class="p">,</span> <span class="n">layer_name</span><span class="o">=</span><span class="s2">"nyc subway stations"</span><span class="p">)</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-28">m.add_geojson(subway_geojson, layer_name="nyc subway stations")</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[28], line 1</span>
+<span class="ansi-green-intense-fg ansi-bold">----&gt; 1</span> m<span style="color: rgb(98,98,98)">.</span>add_geojson(<span class="ansi-yellow-bg">subway_geojson</span>, layer_name<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">"</span><span style="color: rgb(175,0,0)">nyc subway stations</span><span style="color: rgb(175,0,0)">"</span>)
+
+<span class="ansi-red-intense-fg ansi-bold">NameError</span>: name 'subway_geojson' is not defined</pre>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -2299,7 +3255,7 @@ m.add_control(output_ctrl)</div>
 </div> <!-- jp-Notebook -->
 </div> <!-- jupyter-wrapper -->
 <script type="application/vnd.jupyter.widget-state+json">
-{"state": {"d4afe951771f45e0b65e970d3098076a": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": "28px", "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": "0px 0px 0px 5px", "right": null, "top": null, "visibility": null, "width": "28px"}}, "181a603dd2ad48f3a306003f46218553": {"model_name": "ToggleButtonStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ToggleButtonStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "description_width": "", "font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "c29f55475cee4da293c78d306f116350": {"model_name": "ToggleButtonModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ToggleButtonModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "ToggleButtonView", "button_style": "", "description": "", "description_allow_html": false, "disabled": false, "icon": "wrench", "layout": "IPY_MODEL_d4afe951771f45e0b65e970d3098076a", "style": "IPY_MODEL_181a603dd2ad48f3a306003f46218553", "tabbable": null, "tooltip": "Toolbar", "value": false}}, "29d1e6d790f54e1b895f75b493481341": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": "28px", "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": "0px 0px 0px 5px", "right": null, "top": null, "visibility": null, "width": "28px"}}, "820d9342e02b4364a63dc7445f7f8913": {"model_name": "ToggleButtonStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ToggleButtonStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "description_width": "", "font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "4b9887299c834679a8c2c8c1638991cb": {"model_name": "ToggleButtonModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ToggleButtonModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "ToggleButtonView", "button_style": "primary", "description": "", "description_allow_html": false, "disabled": false, "icon": "times", "layout": "IPY_MODEL_29d1e6d790f54e1b895f75b493481341", "style": "IPY_MODEL_820d9342e02b4364a63dc7445f7f8913", "tabbable": null, "tooltip": "Close the tool", "value": false}}, "f25ff25faae54991841380eb267df08f": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "f66f07c389c54c0f96beb696cc76d646": {"model_name": "HBoxModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "HBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "HBoxView", "box_style": "", "children": ["IPY_MODEL_c29f55475cee4da293c78d306f116350"], "layout": "IPY_MODEL_f25ff25faae54991841380eb267df08f", "tabbable": null, "tooltip": null}}, "16775fe157b84568a541fa3d57417252": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": "0px", "grid_row": null, "grid_template_areas": "\"widget001 widget002\"\n\"widget003 widget004\"", "grid_template_columns": "repeat(2, 1fr)", "grid_template_rows": "repeat(2, 1fr)", "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": null, "right": null, "top": null, "visibility": null, "width": "62px"}}, "dac971730ed64d0ca37d0d5d74b74303": {"model_name": "GridBoxModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "GridBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "GridBoxView", "box_style": "", "children": ["IPY_MODEL_f9a8774ba80c4e908921a54f6f73fec8", "IPY_MODEL_ee097cb7ea20429c89a12e1049d27527", "IPY_MODEL_5907fac5d3004107b62811497fd20a6f", "IPY_MODEL_67167e0dd6714ced927526c3f36428c2"], "layout": "IPY_MODEL_16775fe157b84568a541fa3d57417252", "tabbable": null, "tooltip": null}}, "e3ce61ab863f4f1eb3e21cf4f855f483": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": "widget001", "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": "0px", "right": null, "top": null, "visibility": null, "width": "28px"}}, "cef5c0d0805140f79e8b9e9a7b8a5d29": {"model_name": "ButtonStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "button_color": null, "font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "f9a8774ba80c4e908921a54f6f73fec8": {"model_name": "ButtonModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "ButtonView", "button_style": "primary", "description": "", "disabled": false, "icon": "folder-open", "layout": "IPY_MODEL_e3ce61ab863f4f1eb3e21cf4f855f483", "style": "IPY_MODEL_cef5c0d0805140f79e8b9e9a7b8a5d29", "tabbable": null, "tooltip": null}}, "1ae31cee626b4c62afc9d26fe7a77704": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": "widget002", "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": "0px", "right": null, "top": null, "visibility": null, "width": "28px"}}, "efe86140096b46b29f9d1a6e8396cc62": {"model_name": "ButtonStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "button_color": null, "font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "ee097cb7ea20429c89a12e1049d27527": {"model_name": "ButtonModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "ButtonView", "button_style": "primary", "description": "", "disabled": false, "icon": "map", "layout": "IPY_MODEL_1ae31cee626b4c62afc9d26fe7a77704", "style": "IPY_MODEL_efe86140096b46b29f9d1a6e8396cc62", "tabbable": null, "tooltip": null}}, "f5cbb3eb2a4141e89917ab12b9ad7580": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": "widget003", "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": "0px", "right": null, "top": null, "visibility": null, "width": "28px"}}, "8e8ac27d9e5d4adfbfe4518b6787ba66": {"model_name": "ButtonStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "button_color": null, "font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "5907fac5d3004107b62811497fd20a6f": {"model_name": "ButtonModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "ButtonView", "button_style": "primary", "description": "", "disabled": false, "icon": "info", "layout": "IPY_MODEL_f5cbb3eb2a4141e89917ab12b9ad7580", "style": "IPY_MODEL_8e8ac27d9e5d4adfbfe4518b6787ba66", "tabbable": null, "tooltip": null}}, "72e1845c01404fe38a2ac4fafd9b0dfe": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": "widget004", "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": "0px", "right": null, "top": null, "visibility": null, "width": "28px"}}, "1f660a2816804e18bfb372dc1c421f47": {"model_name": "ButtonStyleModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "button_color": null, "font_family": null, "font_size": null, "font_style": null, "font_variant": null, "font_weight": null, "text_color": null, "text_decoration": null}}, "67167e0dd6714ced927526c3f36428c2": {"model_name": "ButtonModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "ButtonModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "ButtonView", "button_style": "primary", "description": "", "disabled": false, "icon": "question", "layout": "IPY_MODEL_72e1845c01404fe38a2ac4fafd9b0dfe", "style": "IPY_MODEL_1f660a2816804e18bfb372dc1c421f47", "tabbable": null, "tooltip": null}}, "4db1455d4ec14fa4ba3533ad2e8b7a76": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "e83e779d2ad849809c34096ed929e91d": {"model_name": "VBoxModel", "model_module": "@jupyter-widgets\/controls", "model_module_version": "2.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/controls", "_model_module_version": "2.0.0", "_model_name": "VBoxModel", "_view_count": null, "_view_module": "@jupyter-widgets\/controls", "_view_module_version": "2.0.0", "_view_name": "VBoxView", "box_style": "", "children": ["IPY_MODEL_c29f55475cee4da293c78d306f116350"], "layout": "IPY_MODEL_4db1455d4ec14fa4ba3533ad2e8b7a76", "tabbable": null, "tooltip": null}}, "63b551966eca4aa18283eb093fff9e9b": {"model_name": "LeafletWidgetControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletWidgetControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletWidgetControlView", "max_height": null, "max_width": null, "min_height": null, "min_width": null, "options": ["position", "transparent_bg"], "position": "topright", "transparent_bg": false, "widget": "IPY_MODEL_e83e779d2ad849809c34096ed929e91d"}}, "5589fbcfa14145fdb0070d6df52aaa4b": {"model_name": "LeafletMapStyleModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "cursor": "grab"}}, "89d57b9599744837b2bc332f974468e4": {"model_name": "LeafletMapStyleModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "cursor": "move"}}, "cb8cbdccc22b427b91445740c715d6ca": {"model_name": "LeafletTileLayerModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletTileLayerModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletTileLayerView", "attribution": "&copy; <a href=\"https:\/\/www.openstreetmap.org\/copyright\">OpenStreetMap<\/a> contributors", "base": true, "bottom": true, "bounds": null, "detect_retina": false, "loading": false, "max_native_zoom": null, "max_zoom": 19, "min_native_zoom": null, "min_zoom": 1, "name": "OpenStreetMap.Mapnik", "no_wrap": false, "opacity": 1.0, "options": ["attribution", "bounds", "detect_retina", "max_native_zoom", "max_zoom", "min_native_zoom", "min_zoom", "no_wrap", "pm_ignore", "tile_size", "tms", "zoom_offset"], "pane": "", "pm_ignore": true, "popup": null, "popup_max_height": null, "popup_max_width": 300, "popup_min_width": 50, "show_loading": false, "snap_ignore": true, "subitems": [], "tile_size": 256, "tms": false, "url": "https:\/\/tile.openstreetmap.org\/{z}\/{x}\/{y}.png", "visible": true, "zoom_offset": 0}}, "eedc6fd49f9e4579927f9ec55a9b40d2": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": "500px", "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "2d949366fb8147eca6ec5560ee3d4cb1": {"model_name": "LeafletMapStyleModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "cursor": "grab"}}, "cf1c1d076c20487c85c965653622b36a": {"model_name": "LeafletMapModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_dom_classes": [], "_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletMapView", "bottom": 0.0, "bounce_at_zoom_limits": true, "box_zoom": true, "center": [40, -100], "close_popup_on_click": true, "controls": ["IPY_MODEL_00535adac96945a69cb10f00b49d4883", "IPY_MODEL_81f061efaaca4e95b6d15984e08fe311", "IPY_MODEL_fb4362a28908499d8ebe193f33a65e46", "IPY_MODEL_e189b90e367f4a159b69255cb1530136", "IPY_MODEL_dda30a32401c4bdea15e6d2da07eb774", "IPY_MODEL_8dba8dfc57ef4d65b8a445f4f7914ae1", "IPY_MODEL_e68ca779d2e84a968e3cccfc70218d6a", "IPY_MODEL_63b551966eca4aa18283eb093fff9e9b", "IPY_MODEL_60e0b9db8b024cc58b3ea1dc3a9178b9"], "crs": {"name": "EPSG3857", "custom": false}, "default_style": "IPY_MODEL_5589fbcfa14145fdb0070d6df52aaa4b", "double_click_zoom": true, "dragging": true, "dragging_style": "IPY_MODEL_89d57b9599744837b2bc332f974468e4", "east": 0.0, "fullscreen": false, "inertia": true, "inertia_deceleration": 3000, "inertia_max_speed": 1500, "interpolation": "bilinear", "keyboard": true, "keyboard_pan_offset": 80, "keyboard_zoom_offset": 1, "layers": ["IPY_MODEL_cb8cbdccc22b427b91445740c715d6ca", "IPY_MODEL_96ec3fc224da4bdabe1667b296f4135c"], "layout": "IPY_MODEL_eedc6fd49f9e4579927f9ec55a9b40d2", "left": 9007199254740991.0, "max_zoom": null, "min_zoom": null, "modisdate": "2026-01-01", "north": 0.0, "options": ["bounce_at_zoom_limits", "box_zoom", "center", "close_popup_on_click", "double_click_zoom", "dragging", "fullscreen", "inertia", "inertia_deceleration", "inertia_max_speed", "interpolation", "keyboard", "keyboard_pan_offset", "keyboard_zoom_offset", "max_zoom", "min_zoom", "prefer_canvas", "scroll_wheel_zoom", "tap", "tap_tolerance", "touch_zoom", "world_copy_jump", "zoom", "zoom_animation_threshold", "zoom_delta", "zoom_snap"], "panes": {}, "prefer_canvas": false, "right": 0.0, "scroll_wheel_zoom": true, "south": 0.0, "style": "IPY_MODEL_2d949366fb8147eca6ec5560ee3d4cb1", "tabbable": null, "tap": true, "tap_tolerance": 15, "tooltip": null, "top": 9007199254740991.0, "touch_zoom": true, "west": 0.0, "window_url": "", "world_copy_jump": false, "zoom": 4.0, "zoom_animation_threshold": 4, "zoom_delta": 1.0, "zoom_snap": 1.0}}, "00535adac96945a69cb10f00b49d4883": {"model_name": "LeafletZoomControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletZoomControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletZoomControlView", "options": ["position", "zoom_in_text", "zoom_in_title", "zoom_out_text", "zoom_out_title"], "position": "topleft", "zoom_in_text": "+", "zoom_in_title": "Zoom in", "zoom_out_text": "-", "zoom_out_title": "Zoom out"}}, "81f061efaaca4e95b6d15984e08fe311": {"model_name": "LeafletAttributionControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletAttributionControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletAttributionControlView", "options": ["position", "prefix"], "position": "bottomright", "prefix": "ipyleaflet"}}, "fb4362a28908499d8ebe193f33a65e46": {"model_name": "LeafletFullScreenControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletFullScreenControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletFullScreenControlView", "options": ["position"], "position": "topleft"}}, "e189b90e367f4a159b69255cb1530136": {"model_name": "LeafletLayersControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletLayersControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletLayersControlView", "collapsed": true, "options": ["collapsed", "position"], "position": "topright"}}, "dda30a32401c4bdea15e6d2da07eb774": {"model_name": "LeafletDrawControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletDrawControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletDrawControlView", "circle": {}, "circlemarker": {"shapeOptions": {}}, "data": [], "edit": true, "marker": {}, "options": ["position"], "polygon": {"shapeOptions": {}}, "polyline": {"shapeOptions": {}}, "position": "topleft", "rectangle": {}, "remove": true}}, "8dba8dfc57ef4d65b8a445f4f7914ae1": {"model_name": "LeafletMeasureControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_custom_units": {}, "_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMeasureControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletMeasureControlView", "active_color": "#ABE67E", "capture_z_index": 10000, "completed_color": "#C8F2BE", "options": ["active_color", "capture_z_index", "completed_color", "popup_options", "position", "primary_area_unit", "primary_length_unit", "secondary_area_unit", "secondary_length_unit"], "popup_options": {"className": "leaflet-measure-resultpopup", "autoPanPadding": [10, 10]}, "position": "topleft", "primary_area_unit": "acres", "primary_length_unit": "feet", "secondary_area_unit": null, "secondary_length_unit": null}}, "e68ca779d2e84a968e3cccfc70218d6a": {"model_name": "LeafletScaleControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletScaleControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletScaleControlView", "imperial": true, "max_width": 100, "metric": true, "options": ["imperial", "max_width", "metric", "position", "update_when_idle"], "position": "bottomleft", "update_when_idle": false}}, "96ec3fc224da4bdabe1667b296f4135c": {"model_name": "LeafletTileLayerModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletTileLayerModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletTileLayerView", "attribution": "Google", "base": false, "bottom": true, "bounds": null, "detect_retina": false, "loading": false, "max_native_zoom": null, "max_zoom": 18, "min_native_zoom": null, "min_zoom": 0, "name": "Google Maps", "no_wrap": false, "opacity": 1.0, "options": ["attribution", "bounds", "detect_retina", "max_native_zoom", "max_zoom", "min_native_zoom", "min_zoom", "no_wrap", "pm_ignore", "tile_size", "tms", "zoom_offset"], "pane": "", "pm_ignore": true, "popup": null, "popup_max_height": null, "popup_max_width": 300, "popup_min_width": 50, "show_loading": false, "snap_ignore": true, "subitems": [], "tile_size": 256, "tms": false, "url": "https:\/\/mt1.google.com\/vt\/lyrs=m&x={x}&y={y}&z={z}", "visible": true, "zoom_offset": 0}}, "7e5edd5af64f49c7baa33259c8161598": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": null, "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "dfb2ff5f883b4e53ab5ae64c06b82778": {"model_name": "OutputModel", "model_module": "@jupyter-widgets\/output", "model_module_version": "1.0.0", "state": {"_dom_classes": [], "_model_module": "@jupyter-widgets\/output", "_model_module_version": "1.0.0", "_model_name": "OutputModel", "_view_count": null, "_view_module": "@jupyter-widgets\/output", "_view_module_version": "1.0.0", "_view_name": "OutputView", "layout": "IPY_MODEL_7e5edd5af64f49c7baa33259c8161598", "msg_id": "", "outputs": [], "tabbable": null, "tooltip": null}}, "60e0b9db8b024cc58b3ea1dc3a9178b9": {"model_name": "LeafletWidgetControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletWidgetControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletWidgetControlView", "max_height": null, "max_width": null, "min_height": null, "min_width": null, "options": ["position", "transparent_bg"], "position": "bottomright", "transparent_bg": false, "widget": "IPY_MODEL_dfb2ff5f883b4e53ab5ae64c06b82778"}}}, "version_major": 2, "version_minor": 0}
+{"state": {"cf86422167214dd68feea9a743dcc87c": {"model_name": "LeafletMapStyleModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "cursor": "grab"}}, "3bae882ff9104f0591bec318959004a0": {"model_name": "LeafletMapStyleModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "cursor": "move"}}, "b2467d777a4a47ca807d2bbf7a370ef0": {"model_name": "LeafletTileLayerModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletTileLayerModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletTileLayerView", "attribution": "&copy; <a href=\"https:\/\/www.openstreetmap.org\/copyright\">OpenStreetMap<\/a> contributors", "base": true, "bottom": true, "bounds": null, "detect_retina": false, "loading": false, "max_native_zoom": null, "max_zoom": 19, "min_native_zoom": null, "min_zoom": 1, "name": "OpenStreetMap.Mapnik", "no_wrap": false, "opacity": 1.0, "options": ["attribution", "bounds", "detect_retina", "max_native_zoom", "max_zoom", "min_native_zoom", "min_zoom", "no_wrap", "pm_ignore", "tile_size", "tms", "zoom_offset"], "pane": "", "pm_ignore": true, "popup": null, "popup_max_height": null, "popup_max_width": 300, "popup_min_width": 50, "show_loading": false, "snap_ignore": true, "subitems": [], "tile_size": 256, "tms": false, "url": "https:\/\/tile.openstreetmap.org\/{z}\/{x}\/{y}.png", "visible": true, "zoom_offset": 0}}, "c421cc43d729437cb6773f5cd1461a91": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets\/base", "model_module_version": "2.0.0", "state": {"_model_module": "@jupyter-widgets\/base", "_model_module_version": "2.0.0", "_model_name": "LayoutModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "LayoutView", "align_content": null, "align_items": null, "align_self": null, "border_bottom": null, "border_left": null, "border_right": null, "border_top": null, "bottom": null, "display": null, "flex": null, "flex_flow": null, "grid_area": null, "grid_auto_columns": null, "grid_auto_flow": null, "grid_auto_rows": null, "grid_column": null, "grid_gap": null, "grid_row": null, "grid_template_areas": null, "grid_template_columns": null, "grid_template_rows": null, "height": "500px", "justify_content": null, "justify_items": null, "left": null, "margin": null, "max_height": null, "max_width": null, "min_height": null, "min_width": null, "object_fit": null, "object_position": null, "order": null, "overflow": null, "padding": null, "right": null, "top": null, "visibility": null, "width": null}}, "51007eb9174444438b54f9e54707ec8e": {"model_name": "LeafletMapStyleModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapStyleModel", "_view_count": null, "_view_module": "@jupyter-widgets\/base", "_view_module_version": "2.0.0", "_view_name": "StyleView", "cursor": "grab"}}, "ca410aa9bd454756abf349f6263857d7": {"model_name": "LeafletMapModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_dom_classes": [], "_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMapModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletMapView", "bottom": 0.0, "bounce_at_zoom_limits": true, "box_zoom": true, "center": [40.7341, -73.9113], "close_popup_on_click": true, "controls": ["IPY_MODEL_bc7a3e8496fa4aefa5e30672f7faf131", "IPY_MODEL_a2fc61b06cc9415787ebd23ba127009c", "IPY_MODEL_039ad5be6a7e44f88514096a6e3d5708", "IPY_MODEL_a3bad7b5ae3a480eaa93a329ee44ce53", "IPY_MODEL_5e3cfb7a12c248cd8fee76c170cb9a9c", "IPY_MODEL_fbeedd3ae1ea4f64a01c80db50026454", "IPY_MODEL_34915644dff54258becbda58091e8f1a"], "crs": {"name": "EPSG3857", "custom": false}, "default_style": "IPY_MODEL_cf86422167214dd68feea9a743dcc87c", "double_click_zoom": true, "dragging": true, "dragging_style": "IPY_MODEL_3bae882ff9104f0591bec318959004a0", "east": 0.0, "fullscreen": false, "inertia": true, "inertia_deceleration": 3000, "inertia_max_speed": 1500, "interpolation": "bilinear", "keyboard": true, "keyboard_pan_offset": 80, "keyboard_zoom_offset": 1, "layers": ["IPY_MODEL_b2467d777a4a47ca807d2bbf7a370ef0", "IPY_MODEL_7f49675738274d4f8737dfafe9221ae3"], "layout": "IPY_MODEL_c421cc43d729437cb6773f5cd1461a91", "left": 9007199254740991.0, "max_zoom": null, "min_zoom": null, "modisdate": "2026-01-01", "north": 0.0, "options": ["bounce_at_zoom_limits", "box_zoom", "center", "close_popup_on_click", "double_click_zoom", "dragging", "fullscreen", "inertia", "inertia_deceleration", "inertia_max_speed", "interpolation", "keyboard", "keyboard_pan_offset", "keyboard_zoom_offset", "max_zoom", "min_zoom", "prefer_canvas", "scroll_wheel_zoom", "tap", "tap_tolerance", "touch_zoom", "world_copy_jump", "zoom", "zoom_animation_threshold", "zoom_delta", "zoom_snap"], "panes": {}, "prefer_canvas": false, "right": 0.0, "scroll_wheel_zoom": true, "south": 0.0, "style": "IPY_MODEL_51007eb9174444438b54f9e54707ec8e", "tabbable": null, "tap": true, "tap_tolerance": 15, "tooltip": null, "top": 9007199254740991.0, "touch_zoom": true, "west": 0.0, "window_url": "", "world_copy_jump": false, "zoom": 10.0, "zoom_animation_threshold": 4, "zoom_delta": 1.0, "zoom_snap": 1.0}}, "bc7a3e8496fa4aefa5e30672f7faf131": {"model_name": "LeafletZoomControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletZoomControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletZoomControlView", "options": ["position", "zoom_in_text", "zoom_in_title", "zoom_out_text", "zoom_out_title"], "position": "topleft", "zoom_in_text": "+", "zoom_in_title": "Zoom in", "zoom_out_text": "-", "zoom_out_title": "Zoom out"}}, "a2fc61b06cc9415787ebd23ba127009c": {"model_name": "LeafletAttributionControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletAttributionControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletAttributionControlView", "options": ["position", "prefix"], "position": "bottomright", "prefix": "ipyleaflet"}}, "039ad5be6a7e44f88514096a6e3d5708": {"model_name": "LeafletFullScreenControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletFullScreenControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletFullScreenControlView", "options": ["position"], "position": "topleft"}}, "a3bad7b5ae3a480eaa93a329ee44ce53": {"model_name": "LeafletLayersControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletLayersControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletLayersControlView", "collapsed": true, "options": ["collapsed", "position"], "position": "topright"}}, "5e3cfb7a12c248cd8fee76c170cb9a9c": {"model_name": "LeafletDrawControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletDrawControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletDrawControlView", "circle": {}, "circlemarker": {"shapeOptions": {}}, "data": [], "edit": true, "marker": {}, "options": ["position"], "polygon": {"shapeOptions": {}}, "polyline": {"shapeOptions": {}}, "position": "topleft", "rectangle": {}, "remove": true}}, "fbeedd3ae1ea4f64a01c80db50026454": {"model_name": "LeafletMeasureControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_custom_units": {}, "_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletMeasureControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletMeasureControlView", "active_color": "#ABE67E", "capture_z_index": 10000, "completed_color": "#C8F2BE", "options": ["active_color", "capture_z_index", "completed_color", "popup_options", "position", "primary_area_unit", "primary_length_unit", "secondary_area_unit", "secondary_length_unit"], "popup_options": {"className": "leaflet-measure-resultpopup", "autoPanPadding": [10, 10]}, "position": "topleft", "primary_area_unit": "acres", "primary_length_unit": "feet", "secondary_area_unit": null, "secondary_length_unit": null}}, "34915644dff54258becbda58091e8f1a": {"model_name": "LeafletScaleControlModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletScaleControlModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletScaleControlView", "imperial": true, "max_width": 100, "metric": true, "options": ["imperial", "max_width", "metric", "position", "update_when_idle"], "position": "bottomleft", "update_when_idle": false}}, "7f49675738274d4f8737dfafe9221ae3": {"model_name": "LeafletTileLayerModel", "model_module": "jupyter-leaflet", "model_module_version": "^0.20", "state": {"_model_module": "jupyter-leaflet", "_model_module_version": "^0.20", "_model_name": "LeafletTileLayerModel", "_view_count": null, "_view_module": "jupyter-leaflet", "_view_module_version": "^0.20", "_view_name": "LeafletTileLayerView", "attribution": "Google", "base": false, "bottom": true, "bounds": null, "detect_retina": false, "loading": false, "max_native_zoom": null, "max_zoom": 18, "min_native_zoom": null, "min_zoom": 0, "name": "Google Maps", "no_wrap": false, "opacity": 1.0, "options": ["attribution", "bounds", "detect_retina", "max_native_zoom", "max_zoom", "min_native_zoom", "min_zoom", "no_wrap", "pm_ignore", "tile_size", "tms", "zoom_offset"], "pane": "", "pm_ignore": true, "popup": null, "popup_max_height": null, "popup_max_width": 300, "popup_min_width": 50, "show_loading": false, "snap_ignore": true, "subitems": [], "tile_size": 256, "tms": false, "url": "https:\/\/mt1.google.com\/vt\/lyrs=m&x={x}&y={y}&z={z}", "visible": true, "zoom_offset": 0}}}, "version_major": 2, "version_minor": 0}
 </script>
 
         <style>
