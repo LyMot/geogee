@@ -61,4 +61,5 @@ nav:
       - test_utils: notebooks/test_utils.ipynb
       - toolbar: notebooks/toolbar.ipynb
       - whiteboxgui: notebooks/whiteboxgui.ipynb
+      - geopandas: notebooks/geopandas.ipynb
 
