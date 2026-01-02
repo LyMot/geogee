@@ -1,3 +1,0 @@
-# geogee Module
-
-::: geogee

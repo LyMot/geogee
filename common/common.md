@@ -1,3 +1,0 @@
-# common Module
-
-::: geogee.common
